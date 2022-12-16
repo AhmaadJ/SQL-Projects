@@ -19,9 +19,8 @@ SELECT * FROM user1 RIGHT JOIN user2 ON user1.`Order Number` = user2.`Order Numb
 
 /* Full Join/Full Outer Join */
 SELECT * FROM user1 FULL JOIN user2 ON user1.`Order Number` = user2.`Order Number`;
-	/* Full Join doesn't work in mySQL -> use left join, union, & right join instead. */
+
+/* Full Join doesn't work in mySQL -> use left join, union, & right join instead. */
 SELECT * FROM user1 LEFT JOIN user2 ON user1.`Order Number` = user2.`Order Number`
 UNION
 SELECT * FROM user1 RIGHT JOIN user2 ON user1.`Order Number` = user2.`Order Number`;
-	/* A Full Join in mySQL */
-
