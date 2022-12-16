@@ -16,5 +16,3 @@ SELECT * FROM db_AhmaadJ.user2;
 
 /*  Inner Join */
 SELECT * FROM db_AhmaadJ.user1 INNER JOIN db_AhmaadJ.user2 ON user1.`Order Number` = user2.`Order Number`;
-
-/*  Inner Join with Alias & Like */
